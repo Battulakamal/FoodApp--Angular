@@ -1,0 +1,21 @@
+
+  <!-- Card -->
+  <div class="container-fluid" style="padding: 50px;margin-bottom: 50px;display: flex;justify-content: space-around;">
+    <div class="card " style="width: 18rem;" scope="col" *ngFor="let u of prodData" >
+    
+  
+      <img class="card-img-top " src="../../../assets/assets/10.png" alt="Card image cap">
+      <div class="card-body ">
+        <h5 class="card-title "></h5>
+        <p class="card-text"></p>
+      </div>
+      <ul class="list-group list-group-flush p-3 border">
+        <li class="list-group-item" ><b>Food</b>    :{{u.food}}</li>
+        <li class="list-group-item" ><b>Price</b>   :{{u.price}}</li>
+        <li class="list-group-item" ><b>Offer</b>     :{{u.offer}}</li>
+        <li class="list-group-item" ><b>Description</b> :{{u.description}}</li>
+
+      
+      
+      </ul>
+    </div></div><br>
